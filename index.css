@@ -48,6 +48,7 @@ body {
 .playerStats > input[type=button] {
     width: 40px;
     color: whitesmoke;
+    height: 30px;
 }
 
 .subtractButton {
@@ -89,5 +90,6 @@ body {
     background: rgba(255,255,255,0.8);
     margin: 0 25px 10px 25px;
     width: 60px;
+    height: 30px;
     text-align: left;
 }

@@ -1,0 +1,93 @@
+body {
+    color: whitesmoke;
+    background-color: rgb(23, 23, 23);
+}
+
+.startDiv {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.startDiv > h1 {
+    margin-top: 30vh;
+}
+
+.startDiv > .selectPlayersButton {
+    background-color: #3498DB;
+    color: white;
+    margin: 10px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    min-width: 200px;
+}
+
+.startDiv > .selectPlayersButton:hover {
+    background-color: #2980B9;
+}
+
+.statsDiv {
+    display: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.playerStats {
+    background-color: rgb(31, 31, 31);
+    border: 2px solid rgb(15, 15, 15);
+    min-width: 45vw;
+    min-height: 30vh;
+    /* display: inline-block; */
+    margin: 0 auto;    
+}
+
+.playerStats > input[type=button] {
+    width: 40px;
+    color: whitesmoke;
+}
+
+.subtractButton {
+    background-color: rgb(221, 29, 29);
+    border-color: rgb(202, 8, 8);
+    cursor: pointer;
+}
+
+.subtractButton:hover {
+    background-color: rgb(202, 8, 8);
+}
+
+.addButton {
+    background-color: rgb(12, 189, 12);
+    border-color: rgb(8, 158, 8);
+    cursor: pointer;
+}
+
+.addButton:hover {
+    background-color: rgb(8, 158, 8);
+}
+
+.title {
+    padding-left: 10px;
+}
+
+.statsInput {
+    border: 2px solid rgb(15, 15, 15); 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(255,255,255,0.9),
+            0 0 16px rgba(255,255,255,0.9); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(255,255,255,0.9),
+            0 0 16px rgba(255,255,255,0.9); 
+    box-shadow: 
+      inset 0 0 8px  rgba(255,255,255,0.9),
+            0 0 16px rgba(255,255,255,0.9); 
+    padding: 5px;
+    background: rgba(255,255,255,0.8);
+    margin: 0 25px 10px 25px;
+    width: 60px;
+    text-align: left;
+}

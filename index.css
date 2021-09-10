@@ -51,6 +51,11 @@ body {
     height: 30px;
 }
 
+.playerName {
+    background-color: transparent;
+    color: whitesmoke;
+}
+
 .subtractButton {
     background-color: rgb(221, 29, 29);
     border-color: rgb(202, 8, 8);

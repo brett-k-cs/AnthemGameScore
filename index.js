@@ -17,7 +17,17 @@ function startGame(players) {
         statsForPlayer.id = 'playerScore'+(player + 1)
 
         var title = statsForPlayer.children[0];
-        title.innerHTML = "Stats for Player "+(player + 1)
+        title.innerHTML = "";
+
+        var span = document.createElement('span')
+        span.innerHTML = "Stats for "
+        title.appendChild(span)
+
+        var nameInput = document.createElement('input')
+        nameInput.classList.add('playerName')
+        nameInput.type = "text"
+        nameInput.value = "Player "+(player + 1)
+        title.appendChild(nameInput)
 
         statsDiv.appendChild(statsForPlayer);
     }

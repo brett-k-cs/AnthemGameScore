@@ -1,6 +1,7 @@
 body {
     color: whitesmoke;
     background-color: rgb(23, 23, 23);
+    position: relative;
 }
 
 .startDiv {

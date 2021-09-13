@@ -55,6 +55,7 @@ body {
 .playerName {
     background-color: transparent;
     color: whitesmoke;
+    max-width: 25vw;
 }
 
 .subtractButton {

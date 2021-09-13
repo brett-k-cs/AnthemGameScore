@@ -35,7 +35,7 @@ function startGame(players) {
 
 document.addEventListener("click", (event) => {
     if(event.target && event.target.tagName == "INPUT" && event.target.type == "button") {
-        var numberStat = event.target.parentElement.children[0];
+        var numberStat = event.target.parentElement.children[1];
         numberStat.value = parseInt(numberStat.value) + parseInt(event.target.value);
         if(numberStat.value > 100) numberStat.value = 100;
         else if(numberStat.value < 0) numberStat.value = 0;
